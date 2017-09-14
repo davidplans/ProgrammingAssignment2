@@ -1,3 +1,7 @@
+## test with:
+## temp <- makeCacheMatrix(matrix(rnorm(1000), nrow = 100, ncol = 100))
+## cacheSolve(temp)
+
 ## This function creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
